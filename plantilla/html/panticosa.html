@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aramon</title>
+    <link rel="stylesheet" href="../style/stylecerler.css" />
+    <link rel="stylesheet" href="../style/styles.css" />
+    <link rel="icon" type="image/x-icon" href="https://www.aramon.com/estaticos/images/favicon.ico" />
+    <!-- Script para los menús -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="../js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      
+      <!-- Header principal -->
+      <header id="header">
+        <img id="logo" src="../images/logo.png" alt="Logo Aramon" />
+      </header>
+      
+      <!-- MENU -->
+      <nav id="menu">
+        <input type="checkbox" id="responsive-menu" onclick="updatemenu()" />
+        <label></label>
+        <ul>
+          <li><a href="../html/index.html">Inicio</a></li>
+          <li>
+            <a class="dropdown-arrow" href="#">Información</a>
+            <ul class="sub-menus">
+              <li><a href="../html/cerler.html">Cerler</a></li>
+              <li><a href="../html/panticosa.html">Formigal-Panticosa</a></li>
+              <li><a href="../html/valde.html">Javalambre-Valdelinares</a></li>
+            </ul>
+          </li>
+          <li><a href="../html/galeria.html">Galería</a></li>
+          <li><a href="../html/tarifas.html">Tarifas</a></li>
+          <li><a href="../html/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Div central con dos columnas -->
+    <div id="fondo_texto">
+        <div id="middle">
+          <div class="estacion-de-esqui">
+            <h2>Estación de Esquí de Panticosa</h2>
+            <p>
+            La estación de esquí de <strong>Panticosa</strong> se sitúa en el valle de Tena, en el Pirineo aragonés. Destaca por su carácter familiar y su entorno natural, ofreciendo una experiencia de esquí rodeada de impresionantes paisajes de montaña. Su altitud máxima es de <em>2,200 metros</em>, lo que asegura nieve de buena calidad durante gran parte de la temporada.
+            </p>
+            <p>
+            Panticosa cuenta con una amplia oferta de pistas para todos los niveles, sumando un total de <strong>39 km esquiables</strong> repartidos en más de 40 pistas. La estación dispone de modernos remontes y una variada infraestructura para disfrutar al máximo de la experiencia de esquí.
+            </p>
+            <p>
+              Los visitantes pueden deleitarse con las vistas del entorno montañoso, incluyendo picos emblemáticos como el Garmo Negro y el Argualas. La estación también cuenta con un área dedicada al freestyle y snowpark, así como con opciones de senderismo y actividades alternativas para quienes prefieren otras experiencias.
+              </p>
+              <p>
+              Con un ambiente acogedor y la hospitalidad característica de la región aragonesa, Panticosa es un destino ideal para familias y esquiadores que buscan combinar deporte y naturaleza en un entorno espectacular.
+              </p>
+            
+              <img src="../images/estacion-formigal-panticosa-huesca-9583-2.jpg" alt="">
+                <div class="boton-container">
+                  <button class="boton-estacion" onclick="window.location.href='https:/www.formigal-panticosa.com/';">
+                    Visitar Página de Panticosa
+                  </button>
+                </div>
+            </div>
+        </div>
+         
+      
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="botones">
+          <button>
+            <a href="http://www.facebook.com/grupoaramon/?locale=es_ES" target="_blank">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+            </a>
+          </button>
+          <button>
+            <a href="http://twitter.com/grupoaramon?lang=es" target="_blank">
+            <i class="fa-brands fa-twitter fa-3x"></i>
+            </a>
+          </button>
+          <button>
+            <a href="http://instagram.com/grupoaramon" target="_blank">
+            <i class="fa-brands fa-instagram fa-3x"></i>
+            </a>
+          </button>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>

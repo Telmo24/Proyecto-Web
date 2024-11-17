@@ -1,0 +1,121 @@
+/* General */
+body {
+    font: 14px Arial, Tahoma, Verdana, sans-serif;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+#wrapper {
+    width: 90%;
+    margin: auto;
+    flex: 1;
+}
+
+/* Header */
+#header {
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  thead th {
+    background-color: #000000;
+    color: white;
+  }
+  
+  tfoot td {
+    font-style: italic;
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+/* Estilo para el botón de la página de Cerler */
+.boton-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-estacion {
+    background-color: #003366;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-estacion:hover {
+    background-color: #2f00ff49;
+}
+
+
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Botones de Redes Sociales */
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones button {
+    background-color: #fff;
+    border: 2px solid #003366;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.botones button i {
+    color: #003366;
+    font-size: 2rem;
+}
+
+.botones button:hover i {
+    color: #00b7ff;
+}
